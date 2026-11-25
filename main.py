@@ -1,7 +1,6 @@
-"""Write the make.fun entry text to <MAKEFUN_OUTPUT_DIR>/entry.txt.
+"""Emit the make.fun entry line into entry.txt under the chosen output folder.
 
-The output directory is the value of MAKEFUN_OUTPUT_DIR when set and
-non-empty, otherwise /output. The directory is created if missing.
+Selects that folder from MAKEFUN_OUTPUT_DIR (default /output) and the emitted bytes must never change.
 """
 
 import os
